@@ -1,4 +1,4 @@
-# SOC Investigation Portfolio — Srikanth
+# SOC Investigation Portfolio
 
 [![InfoSecLabs](https://img.shields.io/badge/InfoSecLabs-Level%2029-blue?style=flat-square)](https://infoseclabs.io/user/srikanth)
 [![XP](https://img.shields.io/badge/XP-2880-green?style=flat-square)]()
@@ -15,11 +15,11 @@
 | Field | Detail |
 |---|---|
 | **Platform** | InfoSecLabs SOC Analyst Training |
-| **Level** | 29 |
-| **XP** | 2,880 |
-| **Global Rank** | #99 |
-| **Avg Investigation Score** | 97.5 / 100 |
-| **Tools Used** | Proofpoint, Wazuh, Elastic SIEM, Firewall Logs |
+| **Level** | 36 |
+| **XP** | 3,530 |
+| **Global Rank** | #75 |
+| **Avg Investigation Score** | 98.1 / 100 |
+| **Tools Used** | Proofpoint, Email Gateway, Wazuh, Elastic SIEM, Firewall Logs |
 
 ---
 
@@ -32,17 +32,19 @@
 | [INV-235](./investigations/INV-235-fp-high-volume-traffic/) | High Volume Network Traffic | LOW | Firewall | T1020 | False Positive | 100/100 |
 | [INV-236](./investigations/INV-236-brute-force-ssh/) | Credential Brute Force SSH | HIGH | Firewall | T1110 | True Positive | 100/100 |
 | [INV-243](./investigations/INV-243-rdp-brute-force/) | RDP Brute Force Attack | CRITICAL | Firewall | T1110 | True Positive | 95/100 |
+| [INV-303](./investigations/INV-303-phishing-malicious-link/) | Phishing Email with Malicious Link Detected | CRITICAL | Proofpoint | T1566 | True Positive | 100/100 |
+| [INV-304](./investigations/INV-304-spear-phishing-detected/) | Spear Phishing Email Detected | MEDIUM | Email Gateway | T1566.002 | True Positive | 100/100 |
 | [INV-3381](./investigations/INV-3381-fp-suspicious-domain/) | False Alert on Suspicious Domain | LOW | Elastic SIEM | T1071 | False Positive | 100/100 |
 
 ---
 
 ## Stats
 
-- Total Investigations: 6
-- True Positives: 4 (66.7%)
-- False Positives: 2 (33.3%)
-- Perfect Scores (100): 4
-- Average Score: 97.5 / 100
+- Total Investigations: 8
+- True Positives: 6 (75.0%)
+- False Positives: 2 (25.0%)
+- Perfect Scores (100): 6
+- Average Score: 98.1 / 100
 
 ---
 
